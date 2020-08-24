@@ -9,7 +9,7 @@ public class TestController {
 
     @GetMapping("/message")
     public String getMessage(){
-        String msg = "Spring boot application deployed on beanstalk version-15";
+        String msg = "Spring boot application deployed on beanstalk version-16";
         return msg;
     }
 }
